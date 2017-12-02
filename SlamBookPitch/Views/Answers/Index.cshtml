@@ -7,19 +7,20 @@
 <h2>All the Answers</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Answer a Question!", "Create")
 </p>
 <table class="table">
-    <tr>
+    @*<tr>
         <th>
             @Html.DisplayNameFor(model => model.Question.Question1)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Answer1)
+            Answer
         </th>
 
         <th></th>
-    </tr>
+    </tr>*@
 
 @foreach (var item in Model) {
     <tr>

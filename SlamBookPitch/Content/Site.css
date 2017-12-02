@@ -52,3 +52,16 @@ font-family: 'Patrick Hand', cursive;  POSSIBLE TITLE FONT.
 .secondFontStyle {
     font-family: 'Sue Ellen Francisco', cursive;
 }
+
+.introQuestion{
+    text-align: center;
+
+}
+
+.redQs {
+    background-image: url('../Images/redqmarks.jpg');
+}
+
+.purpleQs {
+    background-image: url('../Images/purpleqmarks.jpg');
+}
