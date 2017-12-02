@@ -11,7 +11,8 @@ namespace SlamBookPitch.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class Question
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,6 +22,7 @@ namespace SlamBookPitch.Models
         }
     
         public int QuestionID { get; set; }
+        [DisplayName("Question")]
         public string Question1 { get; set; }
         public Nullable<int> UserID { get; set; }
     
