@@ -11,10 +11,12 @@ namespace SlamBookPitch.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel;
+
     public partial class Answer
     {
         public int AnswerID { get; set; }
+        [DisplayName("Answers")]
         public string Answer1 { get; set; }
         public int QuestionID { get; set; }
     

@@ -209,6 +209,21 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>SlamBookPitchDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="Images\colorfulqmarks.jpg" />
+    <Content Include="Images\lightbulbqmark.jpg" />
+    <Content Include="Images\meangirls.jpg" />
+    <Content Include="Images\notebookpaper.jpg" />
+    <Content Include="Images\parentfindsbook.jpg" />
+    <Content Include="Images\purpleqmarks.jpg" />
+    <Content Include="Images\rainbowqmarks.jpg" />
+    <Content Include="Images\redqmarks.jpg" />
+    <Content Include="Images\reginageorge.png" />
+    <Content Include="Images\sweetvalleyhigh.png" />
+    <Content Include="Images\thecraft.jpg" />
+    <Content Include="Images\thegoonies.html" />
+    <Content Include="Images\thegoonies.jpg" />
+    <Content Include="Images\tomdiary.jpg" />
+    <Content Include="Images\whodoyoulike.jpg" />
     <Content Include="Models\SlamBookPitchDB.edmx.diagram">
       <DependentUpon>SlamBookPitchDB.edmx</DependentUpon>
     </Content>
@@ -230,6 +245,7 @@
     <Content Include="Scripts\jquery-3.2.1.slim.js" />
     <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-byGS.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />

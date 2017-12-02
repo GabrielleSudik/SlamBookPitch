@@ -2,7 +2,8 @@
     padding-top: 50px;
     padding-bottom: 20px;
     font-family: 'Patrick Hand', cursive;
-    font-size: 130%;
+    font-size: 180%;
+    background-color: lightskyblue;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -40,4 +41,14 @@ font-family: 'Patrick Hand', cursive;  POSSIBLE TITLE FONT.
 
 .jumbotron {
     font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    background-image: url('../Images/notebookpaper.jpg');
+}
+
+.firstFontStyle {
+    font-family: 'Kristi', cursive;
+}
+
+.secondFontStyle {
+    font-family: 'Sue Ellen Francisco', cursive;
 }
