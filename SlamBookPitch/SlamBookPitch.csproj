@@ -209,7 +209,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>SlamBookPitchDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="Images\cherthinking.jpg" />
     <Content Include="Images\colorfulqmarks.jpg" />
+    <Content Include="Images\handwriting.jpg" />
     <Content Include="Images\lightbulbqmark.jpg" />
     <Content Include="Images\meangirls.jpg" />
     <Content Include="Images\notebookpaper.jpg" />
@@ -286,6 +288,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\WhatIsSlamBook\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

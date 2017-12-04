@@ -11,7 +11,8 @@
 
     @*MY FONTS:*@
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Give+You+Glory|Kristi|Patrick+Hand|Sedgwick+Ave+Display|Sue+Ellen+Francisco|Swanky+and+Moo+Moo|Waiting+for+the+Sunrise" rel="stylesheet">
-    <script src="~/Scripts/jquery-byGS.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery-byGS.js"></script>
+    @*hmm, maybe you just forgot to add type="text/javascript". try now.*@
 
 </head>
 <body>
@@ -23,8 +24,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-
                     <span class="icon-bar"></span>
+
 
 
                 </button>
@@ -33,6 +34,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     @*<li>@Html.ActionLink("Home", "Index", "Home")</li>*@
+                    <li>@Html.ActionLink("Why use The Slam Book?", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Questions", "Index", "Questions")</li>
                     <li>@Html.ActionLink("Answers", "Index", "Answers")</li>
                     <li>@Html.ActionLink("Aliases", "Index", "Users")</li>

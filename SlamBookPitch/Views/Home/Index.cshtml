@@ -1,6 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
+<head>
+    <script type="text/javascript" src="~/Scripts/jquery-byGS.js"></script>
+</head>
 <p><br/></p>
 <div class="jumbotron">
     <h1>THE SLAM BOOK</h1>
@@ -8,31 +11,64 @@
     @*<p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>*@
 </div>
 
-<div class="row">
-    @*<div class="col-md-4">*@
-        @*<h2>Chunk asks: "What's a slam book?"</h2>
-        <p>
-            Just answer on another page.
-        </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>*@
-    @*</div>*@
+
+@{
+    ViewBag.Title = "WhatIsSlamBook";
+}
+
+<h2>What Is a Slam Book?</h2>
+<h3>A shared collection of writings where friends (or strangers) ask each other questions, and annonymity encourages honest answers.</h3>
+<h4>Don't confuse a slam book with a "burn book"! The former is fun, the latter is mean.</h4>
+<br />
+
+<h3>Ask a question at the top of the page, then let all your friends answer.</h3>
+<div class="whatPics">
+    <figure>
+        <img class="examplePic" src="~/Images/whodoyoulike.jpg" alt="example slam book" />
+        <figcaption>Slam book, circa 1978.</figcaption>
+    </figure>
+</div>
+
+<h3>To save time, you could pass around multiple books at a party.</h3>
+<div class="whatPics">
+    <figure>
+        <img class="examplePic" src="~/Images/sweetvalleyhigh.png" alt="Sweet Valley High slam book" />
+        <figcaption>The cool girls do it.</figcaption>
+    </figure>
+</div>
+
+<h3>Sometimes slam books were disguised as other things, like history notes or treasure maps.</h3>
+<div class="whatPics">
+    <figure>
+        <img class="examplePic" src="~/Images/thegoonies.jpg" alt="The Goonies" />
+        <figcaption>That's not a map. It's a slam book.</figcaption>
+    </figure>
+</div>
+
+<h3>When done among friends, it leads to greater understandings and closer bonds.</h3>
+<div class="whatPics">
+    <figure>
+        <img class="examplePic" src="~/Images/thecraft.jpg" alt="The Craft" />
+        <figcaption>These girls never heard of slam books. So they turned to witchcraft instead.</figcaption>
+    </figure>
+</div>
+
+@*<div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-4 introQuestion redQs">
         <div class="introQuestion">
-            <h2 class="introQuestion">What IS a slam book?</h2>
-            <p class="bigReveal introQuestion">ditto</p>
+            <h2 class="introQ1">What IS a slam book?</h2>
+            <p class="bigReveal1">ditto</p>
         </div>
-        @*<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>*@
     </div>
     <div class="col-md-4 introQuestion purpleQs">
         <div class="introQuestion">
-            <h2 class="introQuestion">Why is THE Slam Book better than other slam books?</h2>
-            <p class="bigReveal introQuestion">Maybe some funny 80s tech reference. Data from The Goonies?</p>
+            <h2 class="introQ2">Why is THE Slam Book better than other slam books?</h2>
+            <p class="bigReveal2">Maybe some funny 80s tech reference. Data from The Goonies?</p>
             </div>
-            @*<p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
         </div>
     <div class="col-md-2"></div>
-</div>
+</div>*@
 
 @section Scripts {
     @Scripts.Render("~/bundles/jquery-byGS")

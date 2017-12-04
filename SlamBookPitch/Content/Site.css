@@ -58,10 +58,17 @@ font-family: 'Patrick Hand', cursive;  POSSIBLE TITLE FONT.
 
 }
 
-.redQs {
+/*.redQs {
     background-image: url('../Images/redqmarks.jpg');
+    opacity: .6;
+}
+
+.introQuestion.p{
+    color: black;
+    font-weight: bold;
 }
 
 .purpleQs {
     background-image: url('../Images/purpleqmarks.jpg');
-}
+    opacity: .6;
+}*/
