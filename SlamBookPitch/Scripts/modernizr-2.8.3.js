@@ -1407,7 +1407,7 @@ window.Modernizr = (function( window, document, undefined ) {
     //doesn't seem to be working, but who knows why...
     //go try it on your own fresh page
 
-    $('li: even').addClass('.firstFontFamily');
-    $('li: odd').addClass('.secondFontFamily');
+    //$('li: even').addClass('.firstFontFamily');
+    //$('li: odd').addClass('.secondFontFamily');
 
 })(this, this.document);

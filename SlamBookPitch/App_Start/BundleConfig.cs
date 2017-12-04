@@ -37,7 +37,9 @@ namespace SlamBookPitch
 
              bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/dotluvstylesheet.css",
                       "~/Content/site.css"));
+            //you added the https line, to try to get the tabs to work.
         }
     }
 }

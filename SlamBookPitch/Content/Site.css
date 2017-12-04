@@ -72,3 +72,12 @@ font-family: 'Patrick Hand', cursive;  POSSIBLE TITLE FONT.
     background-image: url('../Images/purpleqmarks.jpg');
     opacity: .6;
 }*/
+
+.examplePic{
+    height: 400px;
+    width: auto;
+}
+
+.centerMe{
+    text-align: center;
+}

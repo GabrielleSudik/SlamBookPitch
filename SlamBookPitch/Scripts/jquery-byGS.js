@@ -9,15 +9,19 @@
     //$('li: even').addClass('.firstFontFamily');
     //$('li: odd').addClass('.secondFontFamily');
 
-    $('.bigReveal1').hide();
-    $('.bigReveal2').hide();
-
-    $('.introQ1').click(function () {
-        $('.bigReveal1').show('fast');
+        $("#tabs").tabs();
     });
 
-    $('.introQ2').click(function () {
-        $('.bigReveal2').show('fast');
-    });
 
-});
+//    $('.bigReveal1').hide();
+//    $('.bigReveal2').hide();
+
+//    $('.introQ1').click(function () {
+//        $('.bigReveal1').show('fast');
+//    });
+
+//    $('.introQ2').click(function () {
+//        $('.bigReveal2').show('fast');
+//    });
+
+//});
